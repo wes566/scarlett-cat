@@ -4,11 +4,12 @@
       body {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
       }
       svg {
-        height: 70vh;
+        max-height: 60vh;
+        max-width: 60vw;
         animation: spin 4s linear infinite;
       }
       @keyframes spin {
@@ -23,7 +24,7 @@
       }
 
       h2 {
-        margin-bottom: 10vh;
+        font-size: 10vh;
         color: purple;
       }
     </style>
